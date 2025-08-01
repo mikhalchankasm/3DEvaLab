@@ -29,7 +29,6 @@ markdown_extensions:
   - pymdownx.snippets
 plugins:
   - search
-  - mermaid2
   - awesome-pages
   - git-revision-date-localized:
       type: date
