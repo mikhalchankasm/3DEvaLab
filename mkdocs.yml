@@ -26,14 +26,9 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.tasklist
-  - pymdownx.snippets
 plugins:
   - search
   - awesome-pages
-  - git-revision-date-localized:
-      type: date
-  - minify:
-      minify_html: true
 nav:
   - Начало: 
       - "О проекте": index.md
