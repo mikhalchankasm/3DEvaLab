@@ -39,6 +39,7 @@ nav:
       - recipes/index.md
   - Reference:
       - reference/index.md
+      - "FMSYS — глобальный объект": reference/fmsys-глобальный-объект-forms-menus-system.md
   - Глоссарий:
       - glossary/index.md
 extra:
