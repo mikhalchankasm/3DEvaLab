@@ -1,20 +1,36 @@
 # 3DEvaLab
 
-База знаний по AVEVA E3D и PML: как решать прикладные задачи, коротко и воспроизводимо.
+База знаний по AVEVA E3D и PML — практичные решения для инженеров.
 
-- Сайт/превью: **MkDocs Material**
-- Текст — **CC BY 4.0**, код — **MIT**
-- Разделы: How-to, Recipes, Reference, Glossary
+## Что здесь есть
+
+- 🔧 **How-to** — пошаговые руководства
+- 🍳 **Recipes** — готовые сниппеты кода  
+- 📚 **Reference** — справочник команд
+- 🔤 **Глоссарий** — термины и понятия
 
 ## Быстрый старт
+
 ```bash
+# Установка
 python -m venv .venv
-. .venv/bin/activate  # Windows: .\.venv\Scripts\activate
-pip install mkdocs-material mkdocs-mermaid2 mkdocs-awesome-pages-plugin \
-            mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin
+.\.venv\Scripts\activate  # Windows
+pip install mkdocs-material mkdocs-awesome-pages-plugin
+
+# Запуск
 mkdocs serve
 ```
 
-## Контрибьютинг
+## Добавить статью
 
-См. [CONTRIBUTING.md](CONTRIBUTING.md). 
+```bash
+python scripts/new_article.py how-to "Название" "теги"
+```
+
+## Сайт
+
+https://mikhalchankasm.github.io/3DEvaLab/
+
+---
+
+**Лицензия:** Текст — CC BY 4.0, код — MIT 
