@@ -1,0 +1,55 @@
+site_name: 3DEvaLab
+site_url: https://3DEvaLab.github.io/3DEvaLab/
+repo_url: https://github.com/3DEvaLab/3DEvaLab
+repo_name: 3DEvaLab
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+  icon:
+    logo: material/flask
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - def_list
+  - footnotes
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.snippets
+plugins:
+  - search
+  - mermaid2
+  - awesome-pages
+  - git-revision-date-localized:
+      type: date
+  - minify:
+      minify_html: true
+nav:
+  - Начало: 
+      - "О проекте": index.md
+      - "Как пользоваться": getting-started/guide.md
+  - How-to:
+      - how-to/index.md
+  - Recipes:
+      - recipes/index.md
+  - Reference:
+      - reference/index.md
+  - Глоссарий:
+      - glossary/index.md
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/3DEvaLab
+  copyright:
+    text: "© 3DEvaLab. Текст — CC BY 4.0; код — MIT." 

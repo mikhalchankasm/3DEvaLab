@@ -1,0 +1,13 @@
+{
+  "name": "3devalab",
+  "private": true,
+  "devDependencies": {
+    "markdownlint-cli2": "^0.14.0",
+    "markdownlint-rule-relative-links": "^2.2.0"
+  },
+  "scripts": {
+    "lint": "npx markdownlint-cli2 **/*.md",
+    "serve": "mkdocs serve",
+    "build": "mkdocs build"
+  }
+} 

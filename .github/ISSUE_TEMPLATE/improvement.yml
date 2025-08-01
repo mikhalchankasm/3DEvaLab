@@ -1,0 +1,36 @@
+name: Улучшение
+description: Предложить улучшение существующей документации
+title: "[IMPROVEMENT] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за предложение улучшения! Пожалуйста, заполните форму ниже.
+  
+  - type: textarea
+    id: what-improve
+    attributes:
+      label: Что улучшить?
+      description: Опишите, что именно нужно улучшить
+      placeholder: "Добавить примеры кода в статью о ROTATE"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: why-improve
+    attributes:
+      label: Почему это важно?
+      description: Объясните, почему это улучшение необходимо
+      placeholder: "Без примеров сложно понять, как применять команду"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: pr-ideas
+    attributes:
+      label: Идеи для PR
+      description: Есть ли конкретные идеи по реализации?
+      placeholder: "Можно добавить блок кода с примером поворота на 90 градусов"
+    validations:
+      required: false 
